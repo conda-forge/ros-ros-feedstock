@@ -1,5 +1,7 @@
 {% set version = "1.14.7-1" %}
 {% set sha256 = "d9c8100fd5dcf41f7d4645263161d02ed5157414b32acac7a5d4ff984892954e" %}
+{% set version = "1.14.7-1" %}
+{% set sha256 = "d9c8100fd5dcf41f7d4645263161d02ed5157414b32acac7a5d4ff984892954e" %}
 
 package:
   name: ros-ros
@@ -11,8 +13,7 @@ source:
 
 
 build:
-  number: 0
-  skip: true  # [win]
+  number: 0  skip: true  # [win]
 
 requirements:
   build:
